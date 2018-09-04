@@ -16,9 +16,19 @@ Inteiro Inteiro::suc(){
   return n;
 }
 
+Inteiro Inteiro::pred(){
+  Inteiro n(value - 1);
+  return n;
+}
+
 Inteiro Inteiro::operator+(Inteiro n){
   Inteiro s(value + n.getValue());
   return s;
+}
+
+Inteiro Inteiro::operator-(Inteiro n){
+  Inteiro d(value - n.getValue());
+  return d;
 }
 
 Inteiro Inteiro::operator*(Inteiro n){

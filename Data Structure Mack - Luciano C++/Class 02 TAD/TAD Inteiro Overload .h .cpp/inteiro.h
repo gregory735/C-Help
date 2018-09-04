@@ -11,6 +11,7 @@ public:
   ~Inteiro();
   Inteiro suc();
   Inteiro operator+(Inteiro n);
+  Inteiro operator-(Inteiro n);
   Inteiro operator*(Inteiro n);
 };
 

@@ -5,9 +5,10 @@ class Inteiro{
 
 private:
   int value;
+  char sinal;
 public:
   int getValue();
-  Inteiro(int v);
+  Inteiro(unsigned int v,char sinal);
   ~Inteiro();
   Inteiro suc();
   Inteiro pred();

@@ -7,7 +7,7 @@ private:
   unsigned int value;
 public:
   unsigned int getValue();
-  Natural(int v);
+  Natural(unsigned int v);
   ~Natural();
   Natural suc();
   Natural operator+(Natural n);

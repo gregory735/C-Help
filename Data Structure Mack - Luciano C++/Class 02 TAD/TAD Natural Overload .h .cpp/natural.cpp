@@ -1,6 +1,6 @@
 #include "natural.h"
 
-Natural::Natural(int v){
+Natural::Natural(unsigned int v){
   value = v;
 }
 
